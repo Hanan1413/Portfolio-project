@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.background{
+
+    background-image: url("./img/machine.jpg");
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+  background-position: 50% 30%; 
+    
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+
+
+
+
