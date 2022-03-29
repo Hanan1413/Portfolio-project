@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root {
   --primary-color: #fff;
   --secondery-color: #d8dadb;
@@ -21,10 +23,13 @@ nav ul li {
   padding: 0 !important;
   height: 50;
 }
+.navbar-brand{
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
+}
 Nav {
   padding: 20px !important;
-  /* color:var(--primary-color) ! important; */
-  /* margin-right: 6.75rem ! important;  */
+  
 }
 
 /* .navbar-nav > li > a.active, .navbar-nav >li a:focus  */
@@ -52,10 +57,7 @@ nav .nav-link {
   nav .nav-link {
     border-top: initial;
   }
-  /* .nav-link.active:focus{ */
-  /* border-top: 0.170rem solid var(--primary-color); */
-  /* width:100;
-} */
+  
   .navbar-nav .nav-link:hover {
     border-top: initial;
     width: 100;

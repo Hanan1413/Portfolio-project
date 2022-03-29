@@ -1,21 +1,16 @@
-import React from 'react';
-import "bootstrap/dist/css/bootstrap.css";
-// import Navbar from "./components/Navbar/Navbar"
 
-//  import Home from "./Home";
-// import Contact from "./Contact";
-// import About from "./About"
-import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navgtion from "./components/Navbar";
 
 
- function App(){
+import "./App.css";
+
+function App() {
   return (
     <div>
-      <h1>Welcome to my website</h1>
+      <Navgtion />
     </div>
   );
+}
 
- }
- 
- 
 export default App;
