@@ -4,6 +4,9 @@
   --primary-color: #fff;
   --secondery-color: #d8dadb;
 }
+.nav-bar{
+  height: 100px;
+}
 
 /* Nav menu Links */
 nav a.nav-link {
@@ -18,21 +21,24 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.Navbar.Brand {
+/* .Navbar.Brand {
   max-width: 17.25rem;
-  padding: 0 !important;
+  padding-left: 100px!important;
   height: 50;
-}
+ 
+} */
+
 .navbar-brand{
   font-family: 'Satisfy', cursive;
   font-size: 1.5rem;
+
+    margin-left: 2rem;
 }
 Nav {
   padding: 20px !important;
   
 }
 
-/* .navbar-nav > li > a.active, .navbar-nav >li a:focus  */
 .nav-link {
   margin-left: 1.75rem;
 }
@@ -52,6 +58,13 @@ nav .nav-link {
   color: var(--primary-color) !important;
 }
 
+
+/* .container{
+  height: 100%;
+  width:1000%;
+} */
+
+
 /* Apply media query it for devices with is less of equal to 1000px */
 @media screen and (max-width: 1000px) {
   nav .nav-link {
@@ -68,4 +81,11 @@ nav .nav-link {
   .navbar-nav .nav-link.active:focus {
     border-top: initial;
   }
+}
+@media screen and (max-width: 800px){
+  .navbar-brand{
+ 
+
+    margin-left: initial;
+}
 }

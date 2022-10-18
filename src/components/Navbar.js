@@ -2,32 +2,28 @@ import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Nav.css";
 
-// import { Router, Routes, Route, Link } from "react-router-dom";
-import About from "../About";
-import Contact from "../Contact";
-import Home from "../Home";
-import Projects from "../Projects";
-// import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar, Nav, Container } from "react-bootstrap";
-
-// import Project from "./";
+import About from "./About";
+import Contact from "./Contact";
+import Home from "./Home";
+import Projects from "./Projects";
+import { Navbar, Nav,  } from "react-bootstrap";
 
 
 
 
 
-// import { Container } from "bootstrap";
-// import {Nav} from "bootstrap"
 
-// import{ Nav} from "react-bootstrap"
-// import { Container } from "react-bootstrap";
+
+
 
 function Navtion() {
   const [active, setActive] = useState("firstpage");
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
+
+      {/* fixed top to make navbar fixed above content */}
+      <Navbar  fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+        
           <Navbar.Brand href="#home">Hanan</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -46,10 +42,9 @@ function Navtion() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
       <div>
-        {active === "firstpage" && <Home />}
+        {active === "firstpage" && <Home title="Hi I'm Hanan" />}
         {active === "secondpage" && <About />}
         {active === "thirdpage" && <Projects />}
         {active === "fourthpage" && <Contact />}
