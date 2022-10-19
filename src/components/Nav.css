@@ -60,6 +60,8 @@ nav .nav-link {
 
 
 
+
+/* Apply media query it for devices width is less of equal to 1000px */
 @media screen and (max-width: 1000px) {
   nav .nav-link {
     border-top: initial;
