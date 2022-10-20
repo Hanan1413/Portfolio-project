@@ -15,7 +15,7 @@ function About() {
         </h1>
         <p lassName="about-text" style={{fontSize:"1.60rem"}}>
          I am a passionate junior front-end developer I  spant the last months learning how to code. I have  desire to learn and grow in a collaborative team environment. 
-         Skilled in HTML, CSS, Javascript Bootstrap, Tailwind CSS and  Git version control systems.
+         Skilled in HTML, CSS, JavaScript, Bootstrap and  Git version control systems.
 
         </p>
         <span> <a href={cv}  target= "_blank" rel="nooopener noreferrer"> <button className="btn" style={{fontSize:"1rem", fontWeight:"bold"}}>Donwload my CV</button> </a></span>
