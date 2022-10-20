@@ -6,9 +6,17 @@
 }
 :root{
   --primary-color:#fff;
+--secondery-color: #d8dadb;
   --dark-color:rgb(32, 32, 32);
-}
+  --dark-background:#000;
+  --light-color:#fff ;
+  --meduim-light:#b6b6b6;
 
+}
+/* :root {
+  --primary-color: #fff;
+  --dark-color: rgb(42, 42, 42);
+} */
 
 
 body{

@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-:root {
-  --primary-color: #fff;
-  --secondery-color: #d8dadb;
-}
+
 .nav-bar{
   height: 100px;
 }

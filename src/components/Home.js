@@ -23,7 +23,7 @@ function Home(props) {
               ],
             }}
           />
-          <h2>Welcome to my website</h2>
+          <h2 >Welcome to my website</h2>
         </div>
       </div>
     
