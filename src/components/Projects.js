@@ -3,7 +3,8 @@ import "./Projects.css";
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 // import {faEye} from "@fortawesome/free-solid-svg-icons";
 // import { faApper } from "@fortawesome/free-solid-svg-icons";
-import {  FaEye, FaGithub, FaUtensils, FaCloudSunRain, FaFilm, FaEdit } from "react-icons/fa";
+import {  FaEye, FaGithub, FaUtensils,  FaVideo, FaDumbbell, FaBuilding } from "react-icons/fa";
+
 
 
 
@@ -22,6 +23,7 @@ import {  FaEye, FaGithub, FaUtensils, FaCloudSunRain, FaFilm, FaEdit } from "re
         <div className="item">
           <h1>
             <FaUtensils />
+            
           </h1>
 
           <h2>Resturant </h2>
@@ -39,22 +41,23 @@ import {  FaEye, FaGithub, FaUtensils, FaCloudSunRain, FaFilm, FaEdit } from "re
 
         <div className="item">
           <h1>
-            <FaFilm />
+            <FaBuilding />
           </h1>
-          <h2> Movie</h2>
+          <h2> Business </h2>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/Hanan1413/Netflix-clone"
+            href="https://statuesque-melba-65ea6f.netlify.app/"
             
             className="bn-lighter"
           >
+
             <FaEye /> Project
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/Hanan1413/Netflix-clone"
+            href="https://github.com/Hanan1413/business-website"
             className="bn-darker"
           >
             <FaGithub /> Githup
@@ -65,18 +68,21 @@ import {  FaEye, FaGithub, FaUtensils, FaCloudSunRain, FaFilm, FaEdit } from "re
 
         <div className="item">
           <h1>
-            <FaEdit />
+            <FaVideo/>
           </h1>
-          <h2>Blog </h2>
+          <h2>API </h2>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="3"
+            href="https://frolicking-lolly-ec8d52.netlify.app/"
             className="bn-lighter"
           >
             <FaEye /> Project
           </a>
-          <a href="/#" className="bn-darker">
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Hanan1413/Breaking-Bad-API" className="bn-darker">
             <FaGithub /> Githup
           </a>
         </div>
@@ -85,15 +91,21 @@ import {  FaEye, FaGithub, FaUtensils, FaCloudSunRain, FaFilm, FaEdit } from "re
 
         <div className="item">
           <h1>
-            <FaCloudSunRain />
+            <FaDumbbell />
           </h1>
-          <h2>Weather API</h2>
-          <a href="3" className="bn-lighter">
+          <h2>Fitness  </h2>
+          <a
+           target="_blank"
+            rel="noopener noreferrer"
+           href="https://astonishing-mandazi-03d8c8.netlify.app/" className="bn-lighter">
             <FaEye /> Project
           </a>
-          <a href="/#" className="bn-darker">
+          <a 
+           target="_blank"
+           rel="noopener noreferrer"
+           href="https://github.com/Hanan1413/FitnessClub" className="bn-darker">
             <FaGithub /> Githup
-          </a>
+          </a> 
         </div>
       </div>
     </div>

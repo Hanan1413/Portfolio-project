@@ -18,12 +18,11 @@ function Home(props) {
               delay: 40,
               strings: [
                 "I'm a frontend developer",
-                "I'm a reader",
-                "I'm a tech Enthusiast",
+                "I'm a lover of learning",
+                "I'm a tech enthusiast",
               ],
             }}
           />
-          <h2 >Welcome to my website</h2>
         </div>
       </div>
     
