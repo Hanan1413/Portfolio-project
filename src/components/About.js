@@ -1,7 +1,8 @@
 import "./About.css"
 import React from "react";
-import image from "../img/code-min.jpg"
-import cv from "../cv/Hanan'sCV20.pdf"
+import image from "../img/code-min (2).jpg"
+import cv from "../cv/HananFrontEnd.pdf"
+
 
 function About() {
   return (

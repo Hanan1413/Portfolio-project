@@ -1,8 +1,6 @@
 import React from "react";
 import "./Projects.css";
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-// import {faEye} from "@fortawesome/free-solid-svg-icons";
-// import { faApper } from "@fortawesome/free-solid-svg-icons";
+
 import {  FaEye, FaGithub, FaUtensils,  FaVideo, FaDumbbell, FaBuilding } from "react-icons/fa";
 
 
@@ -26,14 +24,19 @@ import {  FaEye, FaGithub, FaUtensils,  FaVideo, FaDumbbell, FaBuilding } from "
             
           </h1>
 
-          <h2>Resturant </h2>
+          <h2>Menu </h2>
           <a
-            href="https://fontawesome.com/v5/docs/web/style/animate"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://foody-menu.000webhostapp.com/"
             className="bn-lighter"
           >
             <FaEye /> Project
           </a>
-          <a href="/#" className="bn-darker">
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Hanan1413/Food-cart" className="bn-darker">
             <FaGithub /> Githup
           </a>
         </div>
