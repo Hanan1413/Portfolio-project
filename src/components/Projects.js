@@ -77,7 +77,7 @@ import {  FaEye, FaGithub, FaUtensils,  FaVideo, FaDumbbell, FaBuilding } from "
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://frolicking-lolly-ec8d52.netlify.app/"
+            href="https://musical-klepon-944336.netlify.app/"
             className="bn-lighter"
           >
             <FaEye /> Project
@@ -85,7 +85,7 @@ import {  FaEye, FaGithub, FaUtensils,  FaVideo, FaDumbbell, FaBuilding } from "
           <a 
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Hanan1413/Breaking-Bad-API" className="bn-darker">
+          href="https://github.com/Hanan1413/Search-movie-app" className="bn-darker">
             <FaGithub /> Githup
           </a>
         </div>
